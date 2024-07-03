@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav >
+                <h1><span>D</span>IKSHA</h1>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to my portfolio!I'm currently pursuing my MCA degree<br> with a passion for creating impactful frontend projects.</p>
+                <h1> Hi,I'm <span>Diksha</span>Sharma</h1>
+            </div>
+-        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/d3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me</h1>
+                        <p>I'm currently studying Computer Applications(MCA).I have a strong interest in creating front-end web pages and I am eager to improve my skills in this area.I'va worked on several projects where I've built user-friendly websites.My goal is to enhance my skills further and start my carrer in front-end development,solving real-world problems.<br><br>I'm always interested in learning about new technology,trends and designs principles.I'm ethusiastic about improving my abilities and taking on new challenges.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Language</span><br>JAVA</li>
+                                <li><span>Web Technologies</span><br>HTML,CSS,JavaScript(Basics)</li>
+                                <li><span>Software Development</span><br>Object Oriented Programming(OOPS) concepts,Data Structures and Algorithms</li>
+                                <li><span>Database Management</span><br>DBMS,SQL</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Guru Nanak Dev University,Amristar</span><br>Master of computer Application-(August'23-present(Expected May'25))<br>8.27CGPA</li>
+                    <li><span>Kanya Maha Vidyalaya,Jalandhar</span><br>Bachelor of Computer Science-(August'20-May'23)<br>72.5%</li>
+                                <li><span>Comet Mensa School,Kangra</span><br>XII(CBSE),X(CBSE)<br>86%,88%</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My  Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/p1.png">
+                    <div class="layer">
+                        <h1>Easy-to-Use Weather App</h1>
+                        <p>The Weather App is a straightforward and user-friendly application that provides real time weather updates.It was created using HTML ,CSS nd JavaScript with integration of an API for live weather information.It displays current weather conditions with images,wind speeds and humidity.This app is designed to keep users informed about weather conditions in a simple way.</p>
+                        <h3>Vist GitHub to explore My Project</h3>
+                     <a href="https://diksha810.github.io/weather-app/"> <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p2.png">
+                    <div class="layer">
+                        <h1>Coding Quiz App</h1>
+                        <p>The Coding quiz App helps you test your knowledge of HTML,CSS and JavaScript.It offers questions at different difficulty levels.This App was built using HTML,CSS and JavaScript.It provides instant feedback and calculates your score at the end. Easy to use and customizable,it's designed to help you enhance your web development abilities.</p>
+                        <h3>Vist GitHub to explore My Project</h3>
+                     <a href="https://diksha810.github.io/coding-quiz-/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+         
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/p3.png">
+                    <div class="layer">
+                        <h1>Cardiac Hospital Website</h1>
+                        <p>This website dedicated to heart care.Discover our range of services including treatments and preventive care.This website is created using HTML,CSS and minimal amount of JavaScript. Read patients reviews to learn about their experiences and easily schedule appointments or access medical records through our user friendly interface.Our responsive design ensures seamless navigation across all devices.</p>
+                        <h3>Vist GitHub to explore My Project</h3>
+                     <a href="https://diksha810.github.io/Cardiac-Hospital-website/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p4.png">
+                    <div class="layer">
+                        <h1>Recipe App</h1>
+                        <p>The Recipe App offers a delightful array of recipes including Italian Cuisine and Mexican Cuisine.It was developed with HTML,CSS and JavaScript utlizes API integration to provide a diverse collection of recipes.Each category provides clear instructions,ingredients lists and cooking tips for creating delicious meals.This app is great tool for discovering new flavors and mastering a variety of dishes.</p>
+                        <h3>Vist GitHub to explore My Project</h3>
+                     <a href="https://diksha810.github.io/Recipe-app/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--btn-->
+    <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>diksha810sharma@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7876308464</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_diksha_241/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/diksha-sharma-5ab54426a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Diksha810"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Diksha.pdf" download="Diksha.pdf"class="btn">Download Cv</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn1">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                        </div>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Diksha.Made with <i class="fa-solid fa-heart"></i>by Diksha</p>
+        </p>
+    </div>
+</body>
+<script>
+    let tabLinks=document.getElementsByClassName("tab-links");
+    let tabContents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("active-link");
+        }
+        for(tabContent of tabContents ){
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");}
+
+//sidemenu//
+ let navLinks=document.getElementById("navLinks");
+ function showMenu(){
+    navLinks.style.right="0";
+ }function hideMenu(){
+    navLinks.style.right="-200px";
+ }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwRBqqIAR6CMemfLlD-uGY8dMnDzWCrOzF9xU1ygrR5_aJ9c4RM6ix0ZblPDFh9lMD7/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+  form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</html>
